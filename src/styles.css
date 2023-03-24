@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-srif;
+  text-align: center;
+}
+
+.navigationCon {
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a2a70;
+  margin-bottom: 7rem;
+  /* padding-top: 2rem; */
+  color: #f0f8ff;
+}
+
+h2 {
+  padding: 2rem;
+}
+
+.descriptionCon {
+  background-color: #5a2a70;
+  color: #f0f8ff;
+  height: 20vh;
+  margin-top: 1.7rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+// no arquivo App.js exist para que o HTML e o Javascrit possam ser usadas em um mesmo arquivo
+
+{/*os componentes devem ser reutilizaveis */}
+
+// https://www.figma.com/file/tTQe4DCWMs1pcbQ2XNaebQ/hortifruti-VNW?node-id=1%3A2&t=WlNPAJjWY0j9fFuJ-0
+
+<img src={Lettuce} alt="image of a lettuce" />
+import Lettuce from "./components/imagesFruits/alface.png";
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Algumas dicas sobre Header e footer em React JS:
+
+https://stackoverflow.com/questions/42515739/how-to-create-sections-with-react
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Existem as estilizações de uso geral, que ficam no arquivo index.css, no caso, criando no codesandbox o nome é styles.css mesmo, 
+e existem arquivos css que podem ser para estilizar um conteúdo individualmente.
+Ficando mais ou meos assim:
+
+import styles from "./funcionario.module.css";     isso fica dentro do arquivo funcionario.js
+
+
+.funcionarioconteiner {     isso fica dentro do arquivo funcionario.module.css
+  height: 70vh;
+  width: 53vw;
+  border-bottom: solid 1.5px black;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+Com a estrutura dos arquivos sendo mais ou menos assim:
+src
+components
+funcs
+funcionario.js  funcionario.module.css
