@@ -10,9 +10,7 @@ const Full = styled.div`
   background-size: cover;
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
-  /* border: solid green; 
-  margin-bottom: 5rem;*/
-`;
+ `;
 
 const FullContainer = styled.div`
   display: flex;
@@ -77,7 +75,7 @@ export default class App extends React.Component {
                 <img src={item.image} alt={item.name} />
                 <h3> Species:</h3>
                 <h3> {item.species} </h3>
-                <Paragraph> {item.status} </Paragraph>
+               <Paragraph> {item.status} </Paragraph>
               </div>
             </FullContainer>
           ))}
@@ -86,7 +84,7 @@ export default class App extends React.Component {
           <p>
             96% gostaram, dos que assistiram e deram nota, desse programa de TV
             Usuários do Google Acompanhe malucas viagens no tempo-espaço e por
-            universos paralelos com Rick, <br /> um cientista com problemas com
+            universos paralelos com Rick, um cientista com problemas com
             a bebida, e seu neto Morty, um adolescente não tão brilhante quanto
             o avô.
           </p>
